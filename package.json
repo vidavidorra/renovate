@@ -1,0 +1,46 @@
+{
+  "name": "repo-template",
+  "version": "1.0.0",
+  "description": "A template for creating new repositories.",
+  "scripts": {
+    "lint": "eslint --ignore-path .prettierignore --ext .ts,.tsx,.js,.jsx,.json .",
+    "lint-file": "eslint --ignore-path .prettierignore",
+    "format": "concurrently \"npm:format:default\"",
+    "format:default": "prettier --write \"**/*.{js,jsx,vue,ts,css,less,scss,html,htm,json,md,markdown,yml,yaml}\"",
+    "format-file:default": "prettier --write",
+    "release:changelog": "standard-version --dry-run --skip.commit=true --skip.tag=true",
+    "release:commit": "git commit --allow-empty -m \"chore(release): trigger release process [ci release]\"",
+    "release:message": "chalk -t \"Run {green.bold git push} to publish the release or {red.bold git reset HEAD^} to undo the release.\"",
+    "release": "run-s release:changelog release:commit release:message"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidavidorra/repo-template.git"
+  },
+  "author": "Jeroen de Bruijn",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vidavidorra/repo-template/issues"
+  },
+  "homepage": "https://github.com/vidavidorra/repo-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@types/node": "13.1.8",
+    "@typescript-eslint/eslint-plugin": "2.16.0",
+    "@typescript-eslint/parser": "2.16.0",
+    "chalk-cli": "4.1.0",
+    "concurrently": "5.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-json": "2.0.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.0.10",
+    "lint-staged": "10.0.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.19.1",
+    "standard-version": "7.0.1",
+    "typescript": "3.7.5"
+  }
+}
