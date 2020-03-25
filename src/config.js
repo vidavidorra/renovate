@@ -1,19 +1,19 @@
+const branchName = 'github-renovate';
+
 module.exports = {
-  platform: 'github',
-  token: 'xxx',
-  logFileLevel: 'warn',
-  logLevel: 'debug',
-  onboarding: false,
+  branchPrefix: `${branchName}/`,
   enabledManagers: ['github-actions', 'regex'],
-  trustLevel: 'high',
-  dryRun: true,
   gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
-  repositories: ['vidavidorra/.github-renovate-test'],
+  logLevel: 'debug',
+  onboarding: true,
+  onboardingBranch: `${branchName}/configure`,
+  platform: 'github',
   regexManagers: [
     {
+      datasourceTemplate: 'github-tags',
       fileMatch: ['^\\.github/workflows/[^/]+\\.ya?ml$'],
       matchStrings: ['uses: (?<depName>.*?)@(?<currentValue>.*?)\\s'],
-      datasourceTemplate: 'github-tags',
     },
   ],
+  repositories: ['vidavidorra/.github-renovate-test'],
 };
