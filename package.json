@@ -2,6 +2,7 @@
   "name": "github-renovate",
   "version": "0.1.0",
   "description": "Self-hosted instance of Renovate to update GitHub Actions workflows.",
+  "private": true,
   "scripts": {
     "lint": "eslint --ignore-path .prettierignore --ext .ts,.tsx,.js,.jsx,.json .",
     "lint:fix": "eslint --ignore-path .prettierignore --ext .ts,.tsx,.js,.jsx,.json --fix .",
