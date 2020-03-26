@@ -15,5 +15,10 @@ module.exports = {
       matchStrings: ['uses: (?<depName>.*?)@(?<currentValue>.*?)\\s'],
     },
   ],
-  repositories: ['vidavidorra/.github-renovate-test'],
+  repositories: [
+    'vidavidorra/github-action-renovate',
+    'vidavidorra/next-standard-version',
+    'vidavidorra/repo-template',
+    'vidavidorra/rigol-csv-analyser',
+  ],
 };
