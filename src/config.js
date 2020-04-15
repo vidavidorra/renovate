@@ -17,7 +17,6 @@ module.exports = {
   ],
   repositories: [
     'vidavidorra/docker-linux-images',
-    'vidavidorra/github-action-renovate',
     'vidavidorra/github-renovate',
     'vidavidorra/global-linters',
     'vidavidorra/homebrew-caboodle',
