@@ -5,5 +5,12 @@
     ":timezone(Europe/Amsterdam)",
     ":assignee(vidavidorra)"
   ],
-  "schedule": ["before 6am"]
+  "ignorePresets": [":prHourlyLimit2"],
+  "schedule": ["before 6am"],
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "schedule": ["before 6am on Monday and Friday"]
+    }
+  ]
 }
