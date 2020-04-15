@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  release:
+  get-version:
     runs-on: ubuntu-latest
     if: |
       github.event.commits[0].message == 'chore(release): trigger release process [ci release]' ||
@@ -16,6 +16,44 @@ jobs:
         uses: actions/checkout@v2.1.0
         with:
           fetch-depth: 0
+      - name: Fetch tags
+        run: git fetch --tags
+      - name: Setup node
+        uses: actions/setup-node@v1.4.1
+        with:
+          node-version: '12.x'
+      - name: Install project
+        run: npm ci
+      - name: Get release version
+        run: |
+          readonly COMMIT_MESSAGE="${{ github.event.commits[0].message }}"
+          if [[ "${COMMIT_MESSAGE: -11: -1}" == 'ci release' ]]; then
+            npm run release:version --silent > VERSION
+          else
+            readonly RELEASE_TYPE="${COMMIT_MESSAGE: -6: -1}"
+            npm run release:version --silent -- --releaseAs "${RELEASE_TYPE}" \
+                > VERSION
+          fi
+      - name: Save VERSION for following jobs
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: version
+          path: VERSION
+  release:
+    needs: get-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.1.0
+        with:
+          fetch-depth: 0
+      - name: Get VERSION
+        uses: actions/download-artifact@v1.0.0
+        with:
+          name: version
+      - name: Save version for later steps
+        id: version
+        run: echo "::set-output name=version::$(cat version/VERSION)"
       - name: Fetch tags
         run: git fetch --tags
       - name: Setup Git user
@@ -32,15 +70,19 @@ jobs:
         run: |
           readonly COMMIT_MESSAGE="${{ github.event.commits[0].message }}"
           if [[ "${COMMIT_MESSAGE: -11: -1}" == 'ci release' ]]; then
-            echo "::set-env name=NEXT_VERSION::$(npm run release:version --silent)"
             npx --no-install standard-version
           else
             readonly RELEASE_TYPE="${COMMIT_MESSAGE: -6: -1}"
-            echo "::set-env name=NEXT_VERSION::$(
-                npm run release:version --silent -- --releaseAs "${RELEASE_TYPE}"
-                )"
             npx --no-install standard-version --release-as "${RELEASE_TYPE}"
           fi
+      - name: Get changelog section
+        id: changelog
+        run: |
+          changelog="$(git show --unified=0 CHANGELOG.md \
+              | tail +12 \
+              | sed -e 's/^\+//' \
+              | sed -z 's/\n/%0A/g;s/\r/%0D/g')"
+          echo "::set-output name=changelog::${changelog}"
       - name: Publish release
         run: git push --follow-tags
       - name: Publish GitHub release
@@ -48,14 +90,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ env.NEXT_VERSION }}
-          release_name: v${{ env.NEXT_VERSION }}
+          tag_name: v${{ steps.version.outputs.version }}
+          release_name: v${{ steps.version.outputs.version }}
           body: |
-            See the the [changelog](
+            *See the the [changelog](
               https://github.com/${{ github.repository }}/blob/master/CHANGELOG.md
-            ) for the changes included in this release.
-  prevent_failed_status:
-    name: Prevent failed status when skipped
+            ) for changes in all releases.*
+
+            ${{ steps.changelog.outputs.changelog }}
+  prevent-failed-status:
     runs-on: ubuntu-latest
     steps:
       - name: Prevent failed status when skipped
