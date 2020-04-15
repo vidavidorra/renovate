@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.1.0
       - name: Renovate
-        uses: vidavidorra/github-action-renovate@v1.0.5
+        uses: vidavidorra/github-action-renovate@v2.0.0
         with:
           configurationFile: src/config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
