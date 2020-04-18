@@ -23,5 +23,6 @@ module.exports = {
     'vidavidorra/next-standard-version',
     'vidavidorra/repo-template',
     'vidavidorra/rigol-csv-analyser',
+    'vidavidorra/tools',
   ],
 };
