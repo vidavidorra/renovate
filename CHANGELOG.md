@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/vidavidorra/.github-renovate/compare/v1.0.0...v1.0.1) (2020-05-01)
+
+### Bug Fixes
+
+- add timeout to the Renovate workflow ([3fae17c](https://github.com/vidavidorra/.github-renovate/commit/3fae17c755fe32d32bd42328be77f9da609c5e25))
+- set on 30 minute schedule ([4f7111b](https://github.com/vidavidorra/.github-renovate/commit/4f7111b45567f96cb9d697371f06176c30f774c2))
+
 ## 1.0.0 (2020-04-18)
 
 ### Features

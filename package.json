@@ -1,6 +1,6 @@
 {
   "name": "github-renovate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Self-hosted instance of Renovate to update GitHub Actions workflows.",
   "private": true,
   "scripts": {
