@@ -5,6 +5,7 @@ module.exports = {
   enabledManagers: ['github-actions', 'regex'],
   gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
   logLevel: 'debug',
+  masterIssueTitle: 'Update Dependencies (Renovate Bot - GitHub)',
   onboarding: true,
   onboardingBranch: `${branchName}/configure`,
   platform: 'github',
