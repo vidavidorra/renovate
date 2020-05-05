@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/vidavidorra/.github-renovate/compare/v1.0.1...v1.0.2) (2020-05-05)
+
+### Bug Fixes
+
+- add masterIssueTitle to Renovate config ([ea137ea](https://github.com/vidavidorra/.github-renovate/commit/ea137eabadf5100fe4ea0d06761063444c93e970))
+
 ### [1.0.1](https://github.com/vidavidorra/.github-renovate/compare/v1.0.0...v1.0.1) (2020-05-01)
 
 ### Bug Fixes
