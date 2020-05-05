@@ -14,5 +14,5 @@ jobs:
       - name: Renovate
         uses: vidavidorra/github-action-renovate@v2.0.0
         with:
-          configurationFile: src/config.js
+          configurationFile: src/renovate-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
