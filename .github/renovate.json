@@ -1,16 +1,24 @@
 {
   "extends": [
     "config:base",
+    ":masterIssue",
     ":pinDependencies",
-    ":timezone(Europe/Amsterdam)",
-    ":assignee(vidavidorra)"
+    ":timezone(Europe/Amsterdam)"
   ],
   "ignorePresets": [":prHourlyLimit2"],
-  "schedule": ["before 6am"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "masterIssueApproval": true
+  },
+  "major": {
+    "stabilityDays": 3,
+    "masterIssueApproval": true
+  },
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
-      "schedule": ["before 6am on Monday and Friday"]
+      "extends": ["schedule:monthly"]
     }
-  ]
+  ],
+  "prCreation": "not-pending"
 }
