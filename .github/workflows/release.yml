@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Install project
-        run: npm ci
+        run: npm ci --ignore-scripts
       - name: Get release version
         run: |
           readonly COMMIT_MESSAGE="${{ github.event.commits[0].message }}"
@@ -65,7 +65,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Install project
-        run: npm ci
+        run: npm ci  --ignore-scripts
       - name: Release
         run: |
           readonly COMMIT_MESSAGE="${{ github.event.commits[0].message }}"
