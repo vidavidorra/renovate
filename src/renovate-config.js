@@ -17,6 +17,7 @@ module.exports = {
     },
   ],
   repositories: [
+    'vidavidorra/coap',
     'vidavidorra/docker-linux-images',
     'vidavidorra/github-renovate',
     'vidavidorra/global-linters',
