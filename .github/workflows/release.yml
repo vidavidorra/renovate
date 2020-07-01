@@ -86,7 +86,7 @@ jobs:
       - name: Publish release
         run: git push --follow-tags
       - name: Publish GitHub release
-        uses: actions/create-release@v1.1.1
+        uses: actions/create-release@v1.1.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
