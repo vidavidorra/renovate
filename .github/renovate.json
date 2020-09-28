@@ -11,13 +11,14 @@
     "masterIssueApproval": true
   },
   "major": {
-    "stabilityDays": 3,
-    "masterIssueApproval": true
+    "stabilityDays": 3
   },
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
-      "extends": ["schedule:monthly"]
+      "description": "Auto-merge dependencies",
+      "depTypeList": ["devDependencies", "dependencies"],
+      "updateTypes": ["pin", "digest", "patch", "minor"],
+      "automerge": true
     }
   ],
   "prCreation": "not-pending"

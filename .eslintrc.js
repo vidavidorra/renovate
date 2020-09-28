@@ -1,13 +1,6 @@
-module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-  ],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier', 'json'],
+const defaultConfig = {
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  plugins: [],
   parserOptions: {
     sourceType: 'module',
   },
@@ -19,15 +12,40 @@ module.exports = {
     'prettier/prettier': 'error',
     'sort-imports': 'error',
   },
-  ignorePatterns: [
-    '.git/',
-    '.vscode',
-    'build/',
-    'dist/',
-    'coverage/',
-    'LICENSE.md',
-    'modules/',
-    'node_modules/',
-    '!.*',
-  ],
 };
+
+/**
+ * Add to `extends` of `defaultConfig`.
+ *
+ * The Prettier recommended configuration must be the last extension. See
+ * https://github.com/prettier/eslint-plugin-prettier#recommended-configuration.
+ *
+ * @param  {...configurations} configurations Configuration(s) to add.
+ * @return Superset of the `extends` with the given configuration(s) added.
+ */
+function addToDefaultExtends(...configurations) {
+  const prettierConfiguration = 'plugin:prettier/recommended';
+  const extendsSuperset = defaultConfig.extends
+    .concat(configurations)
+    .sort((a, b) => {
+      if (b === prettierConfiguration) {
+        return -1;
+      }
+      if (a === prettierConfiguration) {
+        return 1;
+      }
+      return 0;
+    });
+
+  return extendsSuperset;
+}
+
+const config = defaultConfig;
+config.overrides = [
+  {
+    files: ['**/*.json'],
+    extends: addToDefaultExtends('plugin:json/recommended'),
+  },
+];
+
+module.exports = config;
