@@ -1,6 +1,6 @@
 # GitHub Renovate
 
-Self-hosted instance of Renovate to update GitHub Actions workflows.
+Self-hosted instance of Renovate.
 
 ## Table of contents
 

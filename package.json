@@ -1,7 +1,7 @@
 {
   "name": "github-renovate",
   "version": "1.0.2",
-  "description": "Self-hosted instance of Renovate to update GitHub Actions workflows.",
+  "description": "Self-hosted instance of Renovate.",
   "private": true,
   "scripts": {
     "lint": "concurrently npm:lint-es",
