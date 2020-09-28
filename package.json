@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vidavidorra/.github-renovate.git"
+    "url": "git+https://github.com/vidavidorra/github-renovate.git"
   },
   "author": "Jeroen de Bruijn",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/vidavidorra/.github-renovate/issues"
+    "url": "https://github.com/vidavidorra/github-renovate/issues"
   },
-  "homepage": "https://github.com/vidavidorra/.github-renovate#readme",
+  "homepage": "https://github.com/vidavidorra/github-renovate#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
