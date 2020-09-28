@@ -1,3 +1,17 @@
+## [1.2.0](https://github.com/vidavidorra/github-renovate/compare/v1.1.1...v1.2.0) (2020-09-28)
+
+
+### Features
+
+* **repo:** add vidavidorra/commitlint-config ([4e11524](https://github.com/vidavidorra/github-renovate/commit/4e11524ca85e7e2cd9f65af4c255c6aa66a587fa))
+* **repo:** add vidavidorra/commitlint-plugin-function-rules ([9c98995](https://github.com/vidavidorra/github-renovate/commit/9c989958e9dc217c2d5d69098cf2a0531c26e388))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump lodash from 4.17.15 to 4.17.20 ([#66](https://github.com/vidavidorra/github-renovate/issues/66)) ([2acd6cc](https://github.com/vidavidorra/github-renovate/commit/2acd6ccdf56dd719d979fc72518e44884e3b39f5))
+* **deps:** update dependency actions/checkout to v2.3.3 ([#60](https://github.com/vidavidorra/github-renovate/issues/60)) ([160aaba](https://github.com/vidavidorra/github-renovate/commit/160aaba8cdabec03bf0797b9b47ba958fe0015c8))
+
 ### [1.1.1](https://github.com/vidavidorra/github-renovate/compare/v1.1.0...v1.1.1) (2020-09-28)
 
 
