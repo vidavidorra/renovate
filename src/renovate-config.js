@@ -19,6 +19,7 @@ module.exports = {
   repositories: [
     'vidavidorra/coap',
     'vidavidorra/commitlint-config',
+    'vidavidorra/commitlint-plugin-function-rules',
     'vidavidorra/docker-linux-images',
     'vidavidorra/github-renovate',
     'vidavidorra/global-linters',
