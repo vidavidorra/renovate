@@ -1,3 +1,20 @@
+### [1.1.1](https://github.com/vidavidorra/github-renovate/compare/v1.1.0...v1.1.1) (2020-09-28)
+
+
+### Bug Fixes
+
+* **deps:** udpate dependency renovatebot/github-action to v23.36.4 ([969d272](https://github.com/vidavidorra/github-renovate/commit/969d272ef2a7b32e4cf2e867e533675f11e3e226))
+
+
+### Documentation
+
+* fix build workflow name in its badge ([3b78b0b](https://github.com/vidavidorra/github-renovate/commit/3b78b0b7598a7536f7e47f6ccb8ab44697ef2381))
+
+
+### Styles
+
+* set `trailingComma` to `all` ([a6029eb](https://github.com/vidavidorra/github-renovate/commit/a6029eb48524f807df3f191af38f07245f474eca))
+
 ## [1.1.0](https://github.com/vidavidorra/github-renovate/compare/v1.0.2...v1.1.0) (2020-09-28)
 
 
