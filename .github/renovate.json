@@ -19,6 +19,10 @@
       "depTypeList": ["devDependencies", "dependencies"],
       "updateTypes": ["pin", "digest", "patch", "minor"],
       "automerge": true
+    },
+    {
+      "packageNames": "renovatebot/github-action",
+      "semanticCommitType": "fix"
     }
   ],
   "prCreation": "not-pending"
