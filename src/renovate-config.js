@@ -2,10 +2,10 @@ const branchName = 'github-renovate';
 
 module.exports = {
   branchPrefix: `${branchName}/`,
+  dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
   enabledManagers: ['github-actions', 'regex'],
   gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
   logLevel: 'debug',
-  dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
   onboarding: true,
   onboardingBranch: `${branchName}/configure`,
   platform: 'github',
