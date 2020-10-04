@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.3
-      - name: Renovate
+      - name: Test
         uses: renovatebot/github-action@v23.40.1
         with:
           configurationFile: test/renovate-config.js
