@@ -1,3 +1,21 @@
+### [1.2.1](https://github.com/vidavidorra/github-renovate/compare/v1.2.0...v1.2.1) (2020-10-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency actions/setup-node to v2.1.2 ([#69](https://github.com/vidavidorra/github-renovate/issues/69)) ([4dfd5ff](https://github.com/vidavidorra/github-renovate/commit/4dfd5ff68bdc5522b4c671586d23d67f980ae7f5))
+* **deps:** update dependency renovatebot/github-action to v23.40.1 ([#68](https://github.com/vidavidorra/github-renovate/issues/68)) ([9cc1607](https://github.com/vidavidorra/github-renovate/commit/9cc1607db9e18847c937d17013a01c5219c12fa3))
+
+
+### Continuous Integration
+
+* **renovate:** use fix type for `renovatebot/github-action` updates ([7088b89](https://github.com/vidavidorra/github-renovate/commit/7088b89b5da5b4f512511cf5fa9dfa42909fc6c8))
+
+
+### Styles
+
+* sort keys of the Renovate configuration object ([4cb6dd8](https://github.com/vidavidorra/github-renovate/commit/4cb6dd8022585b21c34914512db9f8872791966c))
+
 ## [1.2.0](https://github.com/vidavidorra/github-renovate/compare/v1.1.1...v1.2.0) (2020-09-28)
 
 
