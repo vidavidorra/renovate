@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/vidavidorra/github-renovate/compare/v1.2.1...v1.2.2) (2020-10-04)
+
+
+### Tests
+
+* add test for running Renovate in dry-run mode ([#71](https://github.com/vidavidorra/github-renovate/issues/71)) ([33ce86a](https://github.com/vidavidorra/github-renovate/commit/33ce86afffe4756581a11658547165275d0d1fb3))
+
 ### [1.2.1](https://github.com/vidavidorra/github-renovate/compare/v1.2.0...v1.2.1) (2020-10-04)
 
 
