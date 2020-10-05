@@ -1,6 +1,8 @@
+import { JsonObject } from './json';
+
 const branchName = 'github-renovate';
 
-module.exports = {
+const config: JsonObject = {
   branchPrefix: `${branchName}/`,
   dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
   enabledManagers: ['github-actions', 'regex'],
@@ -30,3 +32,10 @@ module.exports = {
     'vidavidorra/tools',
   ],
 };
+
+/**
+ * Export single object, according to the CommonJS model. The CommonJS module is
+ * explicitly used here as that's the kind of module Renovate requires for its
+ * configuration.
+ */
+export = config;
