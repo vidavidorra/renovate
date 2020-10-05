@@ -22,7 +22,7 @@
     },
     {
       "packageNames": "renovatebot/github-action",
-      "semanticCommitType": "fix"
+      "extends": [":semanticCommitType(fix)", "schedule:weekly"]
     }
   ],
   "prCreation": "not-pending"
