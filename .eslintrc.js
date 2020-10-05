@@ -9,6 +9,27 @@ const defaultConfig = {
     node: true,
   },
   rules: {
+    'no-restricted-globals': [
+      'error',
+      /**
+       * From Jest global environment.
+       * https://github.com/facebook/jest/blob/v26.4.2/packages/jest-globals/src/index.ts#L12-L27
+       */
+      'jest',
+      'expect',
+      'it',
+      'test',
+      'fit',
+      'xit',
+      'xtest',
+      'describe',
+      'xdescribe',
+      'fdescribe',
+      'beforeAll',
+      'beforeEach',
+      'afterEach',
+      'afterAll',
+    ],
     'prettier/prettier': 'error',
     'sort-imports': 'error',
   },
@@ -42,6 +63,17 @@ function addToDefaultExtends(...configurations) {
 
 const config = defaultConfig;
 config.overrides = [
+  {
+    files: ['**/*.ts', '**/*.tsx'],
+    extends: addToDefaultExtends(
+      'plugin:@typescript-eslint/recommended',
+      'prettier/@typescript-eslint',
+      'plugin:jest/style',
+    ),
+    parser: '@typescript-eslint/parser',
+    plugins: defaultConfig.plugins.concat(['@typescript-eslint']),
+    rules: { ...defaultConfig.rules, 'jest/consistent-test-it': 'error' },
+  },
   {
     files: ['**/*.json'],
     extends: addToDefaultExtends('plugin:json/recommended'),
