@@ -1,3 +1,27 @@
+### [1.2.3](https://github.com/vidavidorra/github-renovate/compare/v1.2.2...v1.2.3) (2020-10-05)
+
+
+### Bug Fixes
+
+* **config:** convert Renovate config to TypeScript ([25df86e](https://github.com/vidavidorra/github-renovate/commit/25df86e2e6f6d0635005ec6385b39e717d2074bf))
+
+
+### Miscellaneous Chores
+
+* initialise repository for TypeScript ([09c5819](https://github.com/vidavidorra/github-renovate/commit/09c5819b5e6794c05f7ee656a5a77db50d51a558))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.10 ([#72](https://github.com/vidavidorra/github-renovate/issues/72)) ([e10586c](https://github.com/vidavidorra/github-renovate/commit/e10586c9bc89d2c0b59fd8b804def36d4096aec6))
+
+
+### Continuous Integration
+
+* add build to the Build GitHub Actions workflow ([3d406b9](https://github.com/vidavidorra/github-renovate/commit/3d406b98cc6cfaddc508762b2ab7f03840571873))
+* **renovate:** schedule `renovatebot/github-action` updates weekly ([d0e1140](https://github.com/vidavidorra/github-renovate/commit/d0e114009c3df8992604afc4b3a00967e9fa7daf))
+
+
+### Tests
+
+* generate test configuration as a JSON file ([a24c7f1](https://github.com/vidavidorra/github-renovate/commit/a24c7f1b6c8d296d4ba6214678dd76f0dc3f9fe8))
+
 ### [1.2.2](https://github.com/vidavidorra/github-renovate/compare/v1.2.1...v1.2.2) (2020-10-04)
 
 
