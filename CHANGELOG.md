@@ -1,3 +1,15 @@
+### [1.2.5](https://github.com/vidavidorra/github-renovate/compare/v1.2.4...v1.2.5) (2020-10-07)
+
+
+### Miscellaneous Chores
+
+* update gitignore to vidavidorra/repo-template@v1.1.0 ([4eeca41](https://github.com/vidavidorra/github-renovate/commit/4eeca4168cb78af8c01f377a9bb143934dbe55dd))
+
+
+### Continuous Integration
+
+* separate build check from lint and check build pre-commit ([f547add](https://github.com/vidavidorra/github-renovate/commit/f547add6f282e3051af5be841cb4814d16e108de))
+
 ### [1.2.4](https://github.com/vidavidorra/github-renovate/compare/v1.2.3...v1.2.4) (2020-10-05)
 
 
