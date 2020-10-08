@@ -4,5 +4,5 @@ module.exports = {
   coverageDirectory: 'coverage',
   coverageReporters: ['cobertura', 'lcov', 'text'],
   preset: 'ts-jest',
-  roots: ['<rootDir>/src', '<rootDir>/test'],
+  roots: ['<rootDir>/src', '<rootDir>/test', '<rootDir>/scripts'],
 };
