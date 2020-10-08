@@ -1,3 +1,10 @@
+### [1.2.6](https://github.com/vidavidorra/github-renovate/compare/v1.2.5...v1.2.6) (2020-10-08)
+
+
+### Tests
+
+* add script with CLI to create renovate config ([2569722](https://github.com/vidavidorra/github-renovate/commit/2569722ac7834290e1c296878071d5f36a141122))
+
 ### [1.2.5](https://github.com/vidavidorra/github-renovate/compare/v1.2.4...v1.2.5) (2020-10-07)
 
 
