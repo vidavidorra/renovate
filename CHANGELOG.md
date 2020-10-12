@@ -1,3 +1,10 @@
+### [1.2.7](https://github.com/vidavidorra/github-renovate/compare/v1.2.6...v1.2.7) (2020-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency renovatebot/github-action to v23.45.0 ([#73](https://github.com/vidavidorra/github-renovate/issues/73)) ([be27bc0](https://github.com/vidavidorra/github-renovate/commit/be27bc0b9d56577d643c9ef6d367085f8ab5a8ac))
+
 ### [1.2.6](https://github.com/vidavidorra/github-renovate/compare/v1.2.5...v1.2.6) (2020-10-08)
 
 
