@@ -1,3 +1,32 @@
+### [1.2.8](https://github.com/vidavidorra/github-renovate/compare/v1.2.7...v1.2.8) (2020-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency renovatebot/github-action to v23.55.4 ([#78](https://github.com/vidavidorra/github-renovate/issues/78)) ([fa88844](https://github.com/vidavidorra/github-renovate/commit/fa88844ab5389bfbd22571928c411f2d8af90413))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v14.11.10 ([#79](https://github.com/vidavidorra/github-renovate/issues/79)) ([cd9d675](https://github.com/vidavidorra/github-renovate/commit/cd9d6759a18e3469d3c5411217762e434fa2dfa0))
+* **deps:** update dependency @types/node to v14.11.11 ([#91](https://github.com/vidavidorra/github-renovate/issues/91)) ([8a3817b](https://github.com/vidavidorra/github-renovate/commit/8a3817b5b3d26b85cf5133f17f9f5703e4c38504))
+* **deps:** update dependency @types/node to v14.14.0 ([#92](https://github.com/vidavidorra/github-renovate/issues/92)) ([e9d77bf](https://github.com/vidavidorra/github-renovate/commit/e9d77bfc2e7fa2a323a9050145f35b0055a0485f))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.12 ([#74](https://github.com/vidavidorra/github-renovate/issues/74)) ([bb51d4f](https://github.com/vidavidorra/github-renovate/commit/bb51d4f348feea600472e90cc5f67b348d45d11e))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.13 ([#85](https://github.com/vidavidorra/github-renovate/issues/85)) ([cd1b0d3](https://github.com/vidavidorra/github-renovate/commit/cd1b0d3379f54b0f375ada223fad5b79832433e0))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.14 ([#88](https://github.com/vidavidorra/github-renovate/issues/88)) ([2660214](https://github.com/vidavidorra/github-renovate/commit/26602144dca5a5e8df89ec3f4ece95df41079c65))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.16 ([#90](https://github.com/vidavidorra/github-renovate/issues/90)) ([432ede8](https://github.com/vidavidorra/github-renovate/commit/432ede8e5e3bff2816ec1e2609d9037a96b0d9b8))
+* **deps:** update dependency actions/setup-node to v2.1.2 ([#86](https://github.com/vidavidorra/github-renovate/issues/86)) ([8cdf038](https://github.com/vidavidorra/github-renovate/commit/8cdf0385661bdb073cc03d5407040d967e48ef55))
+* **deps:** update dependency eslint to v7.11.0 ([#75](https://github.com/vidavidorra/github-renovate/issues/75)) ([dd4f684](https://github.com/vidavidorra/github-renovate/commit/dd4f684f1f60df2eaf9f5dcdd3758a8b0a028836))
+* **deps:** update dependency eslint-config-prettier to v6.13.0 ([#80](https://github.com/vidavidorra/github-renovate/issues/80)) ([36eb473](https://github.com/vidavidorra/github-renovate/commit/36eb473117c65fd0d838c8727b818b7fa8131d91))
+* **deps:** update dependency eslint-plugin-jest to v24.1.0 ([#76](https://github.com/vidavidorra/github-renovate/issues/76)) ([72569b5](https://github.com/vidavidorra/github-renovate/commit/72569b5754add374489dfbacb5982f6a28d2bc49))
+* **deps:** update dependency lint-staged to v10.4.2 ([#81](https://github.com/vidavidorra/github-renovate/issues/81)) ([7e38ebf](https://github.com/vidavidorra/github-renovate/commit/7e38ebfc9aadbd5dc23461392844176860aaf9eb))
+* **deps:** update dependency semantic-release to v17.2.1 ([#82](https://github.com/vidavidorra/github-renovate/issues/82)) ([f883954](https://github.com/vidavidorra/github-renovate/commit/f883954db52b1e93aff3b1610edb153d4037b899))
+* **deps:** update dependency yargs to v16.1.0 ([#83](https://github.com/vidavidorra/github-renovate/issues/83)) ([ba45031](https://github.com/vidavidorra/github-renovate/commit/ba45031c5856b0ac9394c3c7d57de43d85ad899f))
+* **deps:** update jest monorepo to v26.5.3 ([#77](https://github.com/vidavidorra/github-renovate/issues/77)) ([3c8ec7b](https://github.com/vidavidorra/github-renovate/commit/3c8ec7b7794871e6a6697485386177beb809b0e2))
+* **deps:** update jest monorepo to v26.6.0 ([#87](https://github.com/vidavidorra/github-renovate/issues/87)) ([17cbe49](https://github.com/vidavidorra/github-renovate/commit/17cbe49080290bccaba6283f230cb0f2acdc70dc))
+* **deps:** update typescript-eslint monorepo to v4.4.1 ([#84](https://github.com/vidavidorra/github-renovate/issues/84)) ([1f8190a](https://github.com/vidavidorra/github-renovate/commit/1f8190ab6537c1d958ad1af9afeb2c921b530c85))
+* **deps:** update typescript-eslint monorepo to v4.5.0 ([#89](https://github.com/vidavidorra/github-renovate/issues/89)) ([0cbad9c](https://github.com/vidavidorra/github-renovate/commit/0cbad9ca1d7e3a3e9e5c147a49742c34c3b5240d))
+
 ### [1.2.7](https://github.com/vidavidorra/github-renovate/compare/v1.2.6...v1.2.7) (2020-10-12)
 
 
