@@ -1,3 +1,30 @@
+### [1.2.9](https://github.com/vidavidorra/github-renovate/compare/v1.2.8...v1.2.9) (2020-10-27)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.56.12 ([#105](https://github.com/vidavidorra/github-renovate/issues/105)) ([fd0b5bc](https://github.com/vidavidorra/github-renovate/commit/fd0b5bc58ac4dbee83efcb5293bb246e62dd81cc))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v14.14.1 ([#94](https://github.com/vidavidorra/github-renovate/issues/94)) ([ea8c7fd](https://github.com/vidavidorra/github-renovate/commit/ea8c7fd5522ad522d4c6ffe6375d5b8f8203646e))
+* **deps:** update dependency @types/node to v14.14.2 ([#96](https://github.com/vidavidorra/github-renovate/issues/96)) ([1c582b0](https://github.com/vidavidorra/github-renovate/commit/1c582b06ecf1841a25b405f1ba3511fa52702a0e))
+* **deps:** update dependency @types/node to v14.14.3 ([#103](https://github.com/vidavidorra/github-renovate/issues/103)) ([f76456b](https://github.com/vidavidorra/github-renovate/commit/f76456b9fea03ae2ae72ed9240e319963d471735))
+* **deps:** update dependency @types/node to v14.14.5 ([#109](https://github.com/vidavidorra/github-renovate/issues/109)) ([f5c02c8](https://github.com/vidavidorra/github-renovate/commit/f5c02c8a330be4f60575e462b8efe52ccdd16632))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.17 ([#95](https://github.com/vidavidorra/github-renovate/issues/95)) ([fd614f0](https://github.com/vidavidorra/github-renovate/commit/fd614f07eb8b77d1198e57f6fc8f2fff8aa997b0))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.19 ([#100](https://github.com/vidavidorra/github-renovate/issues/100)) ([c8a5f71](https://github.com/vidavidorra/github-renovate/commit/c8a5f71a36edc3100108b5b61c13491807b834f5))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.20 ([#101](https://github.com/vidavidorra/github-renovate/issues/101)) ([28e250c](https://github.com/vidavidorra/github-renovate/commit/28e250c381586f74c201c00e569eaf1cabbba7f4))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.21 ([#102](https://github.com/vidavidorra/github-renovate/issues/102)) ([bcb6fe1](https://github.com/vidavidorra/github-renovate/commit/bcb6fe159549b1875ef71962f52e054e88d3ba93))
+* **deps:** update dependency eslint to v7.12.0 ([#99](https://github.com/vidavidorra/github-renovate/issues/99)) ([3960ffe](https://github.com/vidavidorra/github-renovate/commit/3960ffe1ba14ef813625ebf2df2eefef30554252))
+* **deps:** update dependency eslint-config-prettier to v6.14.0 ([#93](https://github.com/vidavidorra/github-renovate/issues/93)) ([7027fe9](https://github.com/vidavidorra/github-renovate/commit/7027fe9c0139bceaf3d027477e3344378fa46337))
+* **deps:** update dependency lint-staged to v10.5.0 ([#107](https://github.com/vidavidorra/github-renovate/issues/107)) ([10a311d](https://github.com/vidavidorra/github-renovate/commit/10a311db4c3f22c86b6feb1d3983fdc28b40f3af))
+* **deps:** update dependency ts-jest to v26.4.2 ([#98](https://github.com/vidavidorra/github-renovate/issues/98)) ([99272f5](https://github.com/vidavidorra/github-renovate/commit/99272f540c703c79f6eb618d210108402e5c30c8))
+* **deps:** update dependency ts-jest to v26.4.3 ([#108](https://github.com/vidavidorra/github-renovate/issues/108)) ([5602bae](https://github.com/vidavidorra/github-renovate/commit/5602bae56ab234efe8c54a3afb966979162af06b))
+* **deps:** update dependency typescript to v4.0.5 ([#110](https://github.com/vidavidorra/github-renovate/issues/110)) ([9c2fe87](https://github.com/vidavidorra/github-renovate/commit/9c2fe8772d135f3dc3769c2639e4507fb278e924))
+* **deps:** update jest monorepo to v26.6.1 ([#97](https://github.com/vidavidorra/github-renovate/issues/97)) ([431f652](https://github.com/vidavidorra/github-renovate/commit/431f652cac904afd0ad65182b31c2aeb7bdbef3a))
+* **deps:** update typescript-eslint monorepo to v4.6.0 ([#106](https://github.com/vidavidorra/github-renovate/issues/106)) ([5ebebf7](https://github.com/vidavidorra/github-renovate/commit/5ebebf7476bb19043f25db54cda5c9f29ba09031))
+
 ### [1.2.8](https://github.com/vidavidorra/github-renovate/compare/v1.2.7...v1.2.8) (2020-10-21)
 
 
