@@ -10,6 +10,7 @@ class RenovateConfig {
     ...renovateConfig,
     dryRun: true,
     logLevel: 'debug',
+    repositories: ['vidavidorra/github-renovate'],
   };
 
   constructor(filePath: string) {
