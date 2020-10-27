@@ -1,3 +1,20 @@
+### [1.2.10](https://github.com/vidavidorra/github-renovate/compare/v1.2.9...v1.2.10) (2020-10-27)
+
+
+### Bug Fixes
+
+* **repo:** remove all repositories and GitHub actions update regex ([50d12a6](https://github.com/vidavidorra/github-renovate/commit/50d12a6f6e06101c3204179d3813a3374dd788b2)), closes [renovatebit/renovate#7434](https://github.com/renovatebit/renovate/issues/7434)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v7.12.1 ([#111](https://github.com/vidavidorra/github-renovate/issues/111)) ([440872c](https://github.com/vidavidorra/github-renovate/commit/440872c810c0f8cbb6c08e296c34d4adcf7ee1cd))
+
+
+### Tests
+
+* run test only on this repository ([68f00a8](https://github.com/vidavidorra/github-renovate/commit/68f00a88831505756ef15d4432cb6d2fe9ad0a5b))
+
 ### [1.2.9](https://github.com/vidavidorra/github-renovate/compare/v1.2.8...v1.2.9) (2020-10-27)
 
 
