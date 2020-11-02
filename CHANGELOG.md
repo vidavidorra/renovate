@@ -1,3 +1,18 @@
+### [1.2.11](https://github.com/vidavidorra/github-renovate/compare/v1.2.10...v1.2.11) (2020-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.67.0 ([#116](https://github.com/vidavidorra/github-renovate/issues/116)) ([39a4976](https://github.com/vidavidorra/github-renovate/commit/39a497645602459306a377a98c2c09c766459d4b))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v14.14.6 ([#113](https://github.com/vidavidorra/github-renovate/issues/113)) ([13fe5bb](https://github.com/vidavidorra/github-renovate/commit/13fe5bb2ec140e378b66e14e5f820a704c971b2a))
+* **deps:** update dependency eslint-config-prettier to v6.15.0 ([#112](https://github.com/vidavidorra/github-renovate/issues/112)) ([6329939](https://github.com/vidavidorra/github-renovate/commit/6329939c4294407a3eba7772160e17188f0ec33c))
+* **deps:** update dependency lint-staged to v10.5.1 ([#115](https://github.com/vidavidorra/github-renovate/issues/115)) ([fbca5be](https://github.com/vidavidorra/github-renovate/commit/fbca5be56e8a4f36cab42bab59d637c25599fcb4))
+* **deps:** update dependency semantic-release to v17.2.2 ([#114](https://github.com/vidavidorra/github-renovate/issues/114)) ([b6f33d9](https://github.com/vidavidorra/github-renovate/commit/b6f33d9768a01501b4742c49970a327ce62b8160))
+
 ### [1.2.10](https://github.com/vidavidorra/github-renovate/compare/v1.2.9...v1.2.10) (2020-10-27)
 
 
