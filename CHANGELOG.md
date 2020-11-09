@@ -1,3 +1,20 @@
+### [1.2.12](https://github.com/vidavidorra/github-renovate/compare/v1.2.11...v1.2.12) (2020-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.74.1 ([#123](https://github.com/vidavidorra/github-renovate/issues/123)) ([af91ff5](https://github.com/vidavidorra/github-renovate/commit/af91ff5b87aa8030b2ff5204441e4539a94503a6))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v2.3.4 ([#119](https://github.com/vidavidorra/github-renovate/issues/119)) ([27230f9](https://github.com/vidavidorra/github-renovate/commit/27230f94323e237479d8f3e362432f20a3a31472))
+* **deps:** update dependency eslint to v7.13.0 ([#121](https://github.com/vidavidorra/github-renovate/issues/121)) ([9690772](https://github.com/vidavidorra/github-renovate/commit/96907723629a6ffa0ee21a725b250106e2d6246a))
+* **deps:** update dependency jest to v26.6.3 ([#120](https://github.com/vidavidorra/github-renovate/issues/120)) ([b30b91e](https://github.com/vidavidorra/github-renovate/commit/b30b91ecf0dc22408c8587ef22fbb973afdfb8fb))
+* **deps:** update dependency ts-jest to v26.4.4 ([#122](https://github.com/vidavidorra/github-renovate/issues/122)) ([22e58dd](https://github.com/vidavidorra/github-renovate/commit/22e58dd33205c1f32142ce03b70d37ad5a70f1e7))
+* **deps:** update jest monorepo to v26.6.2 ([#117](https://github.com/vidavidorra/github-renovate/issues/117)) ([bed32ab](https://github.com/vidavidorra/github-renovate/commit/bed32ab6322e9aa7eb2a7a413b4df404de0bdd4b))
+* **deps:** update typescript-eslint monorepo to v4.6.1 ([#118](https://github.com/vidavidorra/github-renovate/issues/118)) ([76e960b](https://github.com/vidavidorra/github-renovate/commit/76e960b3070aec7cee464886e50ad447eaf0ae4a))
+
 ### [1.2.11](https://github.com/vidavidorra/github-renovate/compare/v1.2.10...v1.2.11) (2020-11-02)
 
 
