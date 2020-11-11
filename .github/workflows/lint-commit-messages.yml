@@ -24,6 +24,6 @@ jobs:
           npm ci --ignore-scripts
           echo "::set-env name=NODE_PATH::$GITHUB_WORKSPACE/node_modules"
       - name: Lint commit messages
-        uses: wagoid/commitlint-github-action@v2.1.0
+        uses: wagoid/commitlint-github-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
