@@ -1,3 +1,10 @@
+### [1.2.14](https://github.com/vidavidorra/github-renovate/compare/v1.2.13...v1.2.14) (2020-11-17)
+
+
+### Continuous Integration
+
+* use `env` to replace deprecated `::set-env` ([cc011b3](https://github.com/vidavidorra/github-renovate/commit/cc011b3d38aa904535286e207fa5fda818818a2c))
+
 ### [1.2.13](https://github.com/vidavidorra/github-renovate/compare/v1.2.12...v1.2.13) (2020-11-16)
 
 
