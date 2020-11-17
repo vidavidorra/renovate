@@ -20,10 +20,10 @@ jobs:
         with:
           node-version: 14
       - name: Install project
-        run: |
-          npm ci --ignore-scripts
-          echo "::set-env name=NODE_PATH::$GITHUB_WORKSPACE/node_modules"
+        run: npm ci --ignore-scripts
       - name: Lint commit messages
         uses: wagoid/commitlint-github-action@v2.1.1
+        env:
+          NODE_PATH: ${{ github.workspace }}/node_modules
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
