@@ -1,3 +1,18 @@
+### [1.2.16](https://github.com/vidavidorra/github-renovate/compare/v1.2.15...v1.2.16) (2020-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.89.3 ([#149](https://github.com/vidavidorra/github-renovate/issues/149)) ([93debb2](https://github.com/vidavidorra/github-renovate/commit/93debb20f16c05871941624c42f6b0c855c5a6d9))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v14.14.10 ([#146](https://github.com/vidavidorra/github-renovate/issues/146)) ([e96eba1](https://github.com/vidavidorra/github-renovate/commit/e96eba13b615f5a9a0cca42808c548eb72af4341))
+* **deps:** update dependency lint-staged to v10.5.2 ([#145](https://github.com/vidavidorra/github-renovate/issues/145)) ([ba3757e](https://github.com/vidavidorra/github-renovate/commit/ba3757eda8c6de2fd47dda34b729c3e633091143))
+* **deps:** update dependency prettier to v2.2.1 ([#147](https://github.com/vidavidorra/github-renovate/issues/147)) ([88e0aff](https://github.com/vidavidorra/github-renovate/commit/88e0affb1bed1cf1412b76c66066a02b30d46e34))
+* **deps:** update typescript-eslint monorepo to v4.8.2 ([#144](https://github.com/vidavidorra/github-renovate/issues/144)) ([9010de0](https://github.com/vidavidorra/github-renovate/commit/9010de0b3f18a6b7ebd4203bec30e5eb49ade79a))
+
 ### [1.2.15](https://github.com/vidavidorra/github-renovate/compare/v1.2.14...v1.2.15) (2020-11-23)
 
 
