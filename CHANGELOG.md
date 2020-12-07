@@ -1,3 +1,22 @@
+### [1.2.17](https://github.com/vidavidorra/github-renovate/compare/v1.2.16...v1.2.17) (2020-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.94.1 ([#157](https://github.com/vidavidorra/github-renovate/issues/157)) ([350d3bf](https://github.com/vidavidorra/github-renovate/commit/350d3bf9c754f255ff68dd710d86929ebfe63613))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v7.15.0 ([#154](https://github.com/vidavidorra/github-renovate/issues/154)) ([22ec1f6](https://github.com/vidavidorra/github-renovate/commit/22ec1f6d569de1c6a0a35d3fa2319ae427841efc))
+* **deps:** update dependency eslint-plugin-prettier to v3.2.0 ([#151](https://github.com/vidavidorra/github-renovate/issues/151)) ([bcc4f65](https://github.com/vidavidorra/github-renovate/commit/bcc4f65b01a754f4c57af9057c19bf914c59eae6))
+* **deps:** update dependency husky to v4.3.4 ([#155](https://github.com/vidavidorra/github-renovate/issues/155)) ([0b0bee5](https://github.com/vidavidorra/github-renovate/commit/0b0bee5686118b4ac537690a36d812443923b44b))
+* **deps:** update dependency lint-staged to v10.5.3 ([#153](https://github.com/vidavidorra/github-renovate/issues/153)) ([f05b50b](https://github.com/vidavidorra/github-renovate/commit/f05b50b0bb1ab6e7b4dc596c6cc933645c3fe1aa))
+* **deps:** update dependency ts-node to v9.1.0 ([#152](https://github.com/vidavidorra/github-renovate/issues/152)) ([5dccf9d](https://github.com/vidavidorra/github-renovate/commit/5dccf9d3c5bec76b90f21f12f1d9e34a7d5687e8))
+* **deps:** update dependency yargs to v16.2.0 ([#156](https://github.com/vidavidorra/github-renovate/issues/156)) ([4f16705](https://github.com/vidavidorra/github-renovate/commit/4f16705f900d05b72f5a15638a374d379aa2c5b1))
+* **deps:** update typescript-eslint monorepo to v4.9.0 ([#150](https://github.com/vidavidorra/github-renovate/issues/150)) ([bdc0f90](https://github.com/vidavidorra/github-renovate/commit/bdc0f9082e2d4e3bc76508492629ed9b3d1cf69c))
+* **deps:** update wagoid/commitlint-github-action action to v2.1.4 ([#148](https://github.com/vidavidorra/github-renovate/issues/148)) ([3cbeb57](https://github.com/vidavidorra/github-renovate/commit/3cbeb57ef9d3a875edcd8333bf29429567f6a79e))
+
 ### [1.2.16](https://github.com/vidavidorra/github-renovate/compare/v1.2.15...v1.2.16) (2020-11-30)
 
 
