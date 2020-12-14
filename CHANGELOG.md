@@ -1,3 +1,25 @@
+### [1.2.18](https://github.com/vidavidorra/github-renovate/compare/v1.2.17...v1.2.18) (2020-12-14)
+
+
+### Bug Fixes
+
+* **deps:** update renovatebot/github-action action to v23.100.5 ([#169](https://github.com/vidavidorra/github-renovate/issues/169)) ([b0fc5ae](https://github.com/vidavidorra/github-renovate/commit/b0fc5ae0c6872c4b439009ee1d18ccaab99275d6))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([#166](https://github.com/vidavidorra/github-renovate/issues/166)) ([37eb681](https://github.com/vidavidorra/github-renovate/commit/37eb681b15340303963c968cdfd702c44bd47566))
+* **deps:** update dependency @types/node to v14.14.11 ([#162](https://github.com/vidavidorra/github-renovate/issues/162)) ([60c9e75](https://github.com/vidavidorra/github-renovate/commit/60c9e75a039f96e770d59a41e0afeae73af7cc52))
+* **deps:** update dependency @types/node to v14.14.12 ([#164](https://github.com/vidavidorra/github-renovate/issues/164)) ([5077681](https://github.com/vidavidorra/github-renovate/commit/50776810343d722cf5a50e49980493c0e988931b))
+* **deps:** update dependency @types/node to v14.14.13 ([#167](https://github.com/vidavidorra/github-renovate/issues/167)) ([47a328f](https://github.com/vidavidorra/github-renovate/commit/47a328f33fc1335c03cd020642dd45fb6f5a1d3d))
+* **deps:** update dependency eslint-config-prettier to v7 ([#163](https://github.com/vidavidorra/github-renovate/issues/163)) ([7faad2e](https://github.com/vidavidorra/github-renovate/commit/7faad2ed25980a8b5391825414ef2e1a9cb8ef76))
+* **deps:** update dependency eslint-plugin-prettier to v3.3.0 ([#170](https://github.com/vidavidorra/github-renovate/issues/170)) ([8160015](https://github.com/vidavidorra/github-renovate/commit/8160015a72df5551aacdb9a08966be2d8a03646e))
+* **deps:** update dependency husky to v4.3.5 ([#159](https://github.com/vidavidorra/github-renovate/issues/159)) ([bc11274](https://github.com/vidavidorra/github-renovate/commit/bc11274956673d22ef98e2c334459632885a9bee))
+* **deps:** update dependency husky to v4.3.6 ([#168](https://github.com/vidavidorra/github-renovate/issues/168)) ([7960f8b](https://github.com/vidavidorra/github-renovate/commit/7960f8bb99f6e653667480a0c9f2289c2bc0bd21))
+* **deps:** update dependency ts-node to v9.1.1 ([#160](https://github.com/vidavidorra/github-renovate/issues/160)) ([32de964](https://github.com/vidavidorra/github-renovate/commit/32de964eb051fc34faaa7f55b4bfe41760270548))
+* **deps:** update dependency typescript to v4.1.3 ([#165](https://github.com/vidavidorra/github-renovate/issues/165)) ([615f5b8](https://github.com/vidavidorra/github-renovate/commit/615f5b82d3cb6d9708e288aceb66bb9b0ccd92cd))
+* **deps:** update typescript-eslint monorepo to v4.9.1 ([#161](https://github.com/vidavidorra/github-renovate/issues/161)) ([bb24366](https://github.com/vidavidorra/github-renovate/commit/bb24366e957582bc88d58723010b55731e932779))
+
 ### [1.2.17](https://github.com/vidavidorra/github-renovate/compare/v1.2.16...v1.2.17) (2020-12-07)
 
 
