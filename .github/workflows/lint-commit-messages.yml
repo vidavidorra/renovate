@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup node
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: 14
       - name: Install project
