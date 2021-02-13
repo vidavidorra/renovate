@@ -1,29 +1,11 @@
 {
-  "extends": [
-    "config:base",
-    ":masterIssue",
-    ":pinDependencies",
-    ":timezone(Europe/Amsterdam)"
-  ],
-  "ignorePresets": [":prHourlyLimit2"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "masterIssueApproval": true
-  },
-  "major": {
-    "stabilityDays": 3
-  },
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>vidavidorra/.github"],
   "packageRules": [
     {
-      "description": "Auto-merge dependencies",
-      "depTypeList": ["devDependencies", "dependencies"],
-      "updateTypes": ["pin", "digest", "patch", "minor"],
-      "automerge": true
-    },
-    {
+      "description": "Update the Renovate GitHub action weakly with fix type",
       "packageNames": "renovatebot/github-action",
       "extends": [":semanticCommitType(fix)", "schedule:weekly"]
     }
-  ],
-  "prCreation": "not-pending"
+  ]
 }
