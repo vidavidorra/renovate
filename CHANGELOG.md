@@ -1,3 +1,10 @@
+### [1.2.20](https://github.com/vidavidorra/github-renovate/compare/v1.2.19...v1.2.20) (2021-02-13)
+
+### Continuous Integration
+
+- **release:** format changelog during release ([321504c](https://github.com/vidavidorra/github-renovate/commit/321504cc8cacdc447c8cabc9f2c32548ada397b7))
+- remove `chore` commit type from changelog (generation) ([2ae46e4](https://github.com/vidavidorra/github-renovate/commit/2ae46e45759093d4a7d7fabdc9af252a58e57823))
+
 ### [1.2.19](https://github.com/vidavidorra/github-renovate/compare/v1.2.18...v1.2.19) (2021-02-13)
 
 ### Continuous Integration
