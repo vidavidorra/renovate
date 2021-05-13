@@ -51,7 +51,7 @@ class Cli {
       })
       .parse(argv);
 
-    return (args as unknown) as Arguments;
+    return args as unknown as Arguments;
   }
 }
 

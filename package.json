@@ -33,7 +33,6 @@
     "url": "https://github.com/vidavidorra/github-renovate/issues"
   },
   "homepage": "https://github.com/vidavidorra/github-renovate#readme",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "12.1.1",
     "@jest/globals": "26.6.2",
