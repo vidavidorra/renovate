@@ -22,7 +22,7 @@ describe('RenovateConfig', () => {
   });
 
   afterEach(() => {
-    fs.rmdirSync(tempDirectory, { recursive: true });
+    fs.rmSync(tempDirectory, { recursive: true });
   });
 
   it('throws if the configuration file is not has no extension', () => {
@@ -68,7 +68,7 @@ describe('RenovateConfig', () => {
 
   describe('write()', () => {
     it('throws if the directory of the given path is a file', () => {
-      fs.rmdirSync(tempDirectory, { recursive: true });
+      fs.rmSync(tempDirectory, { recursive: true });
       fs.writeFileSync(tempDirectory, '\n');
       expect(() => {
         renovateConfig.write();
@@ -76,7 +76,7 @@ describe('RenovateConfig', () => {
     });
 
     it('creates the directory if it does not exist', () => {
-      fs.rmdirSync(tempDirectory, { recursive: true });
+      fs.rmSync(tempDirectory, { recursive: true });
       expect(fs.existsSync(tempDirectory)).toEqual(false);
       renovateConfig.write();
       expect(fs.existsSync(tempDirectory)).toEqual(true);
