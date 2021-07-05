@@ -1,3 +1,13 @@
+### [1.2.21](https://github.com/vidavidorra/github-renovate/compare/v1.2.20...v1.2.21) (2021-07-05)
+
+### Bug Fixes
+
+- **deps:** update renovatebot/github-action action to v25 ([#242](https://github.com/vidavidorra/github-renovate/issues/242)) ([d70dddb](https://github.com/vidavidorra/github-renovate/commit/d70dddb814aea015149b8015c8d30caf01979d57))
+
+### Styles
+
+- add ESLint ignore file to enable linting of dotfiles ([a9c0419](https://github.com/vidavidorra/github-renovate/commit/a9c04191f6ee53317ee90824c878c6ca63d996c4))
+
 ### [1.2.20](https://github.com/vidavidorra/github-renovate/compare/v1.2.19...v1.2.20) (2021-02-13)
 
 ### Continuous Integration
