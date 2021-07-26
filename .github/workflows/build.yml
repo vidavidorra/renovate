@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # renovate: tag=v2.3.4
       - name: Setup node
         uses: actions/setup-node@aa759c6c94d3800c55b8601f21ba4b2371704cb7 # renovate: tag=v2.3.0
         with:
@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # renovate: tag=v2.3.4
       - name: Setup node
         uses: actions/setup-node@aa759c6c94d3800c55b8601f21ba4b2371704cb7 # renovate: tag=v2.3.0
         with:
@@ -42,7 +42,7 @@ jobs:
       CONFIG_FILE_PATH: dist/test/config.json
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # renovate: tag=v2.3.4
       - name: Setup node
         uses: actions/setup-node@aa759c6c94d3800c55b8601f21ba4b2371704cb7 # renovate: tag=v2.3.0
         with:
@@ -54,7 +54,7 @@ jobs:
           npm run build
           npm run test:create-renovate-config -- ${{ env.CONFIG_FILE_PATH }}
       - name: Test
-        uses: renovatebot/github-action@v25.52.1
+        uses: renovatebot/github-action@2a5f5f9907fdb7e32b9eb33e6c4a1fd0cb1671d0 # renovate: tag=v25.52.1
         with:
           configurationFile: ${{ env.CONFIG_FILE_PATH }}
           token: ${{ secrets.RENOVATE_TOKEN }}
@@ -68,7 +68,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # renovate: tag=v2.3.4
         with:
           # Make sure the release step uses its own credentials.
           persist-credentials: false
