@@ -1,3 +1,9 @@
+### [1.2.22](https://github.com/vidavidorra/github-renovate/compare/v1.2.21...v1.2.22) (2021-08-23)
+
+### Bug Fixes
+
+- **deps:** update renovatebot/github-action action to v25.76.1 ([a12ebaf](https://github.com/vidavidorra/github-renovate/commit/a12ebaf509932fb4f2f24b4cb2e8030229a7db9d))
+
 ### [1.2.21](https://github.com/vidavidorra/github-renovate/compare/v1.2.20...v1.2.21) (2021-07-05)
 
 ### Bug Fixes
