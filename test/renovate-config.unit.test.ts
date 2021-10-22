@@ -38,7 +38,7 @@ describe('RenovateConfig', () => {
   });
 
   it("uses '.json' extension for the configuration file", () => {
-    expect(renovateConfig.extension).toEqual('json');
+    expect(renovateConfig.extension).toBe('json');
   });
 
   it("'path' contains the given given file path", () => {
@@ -46,7 +46,7 @@ describe('RenovateConfig', () => {
   });
 
   it('enables dry-run mode', () => {
-    expect(renovateConfig.config.dryRun).toEqual(true);
+    expect(renovateConfig.config.dryRun).toBe(true);
   });
 
   /**
@@ -77,14 +77,14 @@ describe('RenovateConfig', () => {
 
     it('creates the directory if it does not exist', () => {
       fs.rmSync(tempDirectory, { recursive: true });
-      expect(fs.existsSync(tempDirectory)).toEqual(false);
+      expect(fs.existsSync(tempDirectory)).toBe(false);
       renovateConfig.write();
-      expect(fs.existsSync(tempDirectory)).toEqual(true);
+      expect(fs.existsSync(tempDirectory)).toBe(true);
     });
 
     it('writes the config to file', () => {
       renovateConfig.write();
-      expect(fs.existsSync(tempFilePath)).toEqual(true);
+      expect(fs.existsSync(tempFilePath)).toBe(true);
       const readData = fs.readFileSync(tempFilePath, { encoding: 'utf-8' });
 
       const expectedData = `${JSON.stringify(

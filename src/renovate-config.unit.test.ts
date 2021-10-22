@@ -4,11 +4,11 @@ import { JsonArray } from '../src/json';
 
 describe('renovate configuration', () => {
   it("exports a CommonJS module with 'rules' object", () => {
-    expect(renovateConfig).not.toBeUndefined();
+    expect(renovateConfig).toBeDefined();
   });
 
   it("uses 'github' as 'platform'", () => {
-    expect(renovateConfig.platform).toEqual('github');
+    expect(renovateConfig.platform).toBe('github');
   });
 
   /**
@@ -26,21 +26,21 @@ describe('renovate configuration', () => {
 
   describe('repositories', () => {
     it('is an array of strings', () => {
-      expect(renovateConfig.repositories).not.toBeUndefined();
+      expect(renovateConfig.repositories).toBeDefined();
       expect(renovateConfig.repositories).not.toBeNull();
-      expect(Array.isArray(renovateConfig.repositories)).toEqual(true);
+      expect(Array.isArray(renovateConfig.repositories)).toBe(true);
 
       expect(
         (renovateConfig.repositories as JsonArray).every(
           (e) => typeof e === 'string',
         ),
-      ).toEqual(true);
+      ).toBe(true);
     });
 
     it('are specified as <user>/<repo>', () => {
       const repositories: string[] = renovateConfig.repositories as string[];
       repositories.forEach((e) => {
-        expect(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(e)).toEqual(true);
+        expect(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(e)).toBe(true);
       });
     });
 
