@@ -36,9 +36,9 @@
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
     "@jest/globals": "27.3.1",
-    "@semantic-release/changelog": "6.0.0",
-    "@semantic-release/exec": "6.0.1",
-    "@semantic-release/git": "10.0.0",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/exec": "6.0.2",
+    "@semantic-release/git": "10.0.1",
     "@types/node": "16.11.6",
     "@typescript-eslint/eslint-plugin": "5.2.0",
     "@typescript-eslint/parser": "5.2.0",
