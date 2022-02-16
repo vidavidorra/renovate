@@ -42,7 +42,7 @@
     "@types/node": "16.11.24",
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
-    "@vidavidorra/commitlint-config": "3.2.3",
+    "@vidavidorra/commitlint-config": "3.2.4",
     "eslint": "8.8.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-jest": "26.1.0",
