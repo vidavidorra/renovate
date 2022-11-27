@@ -22,7 +22,7 @@ jobs:
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Lint commit messages
-        uses: wagoid/commitlint-github-action@861b4d9f1085e4038d715c541f02b43784676631 # tag=v5.2.2
+        uses: wagoid/commitlint-github-action@481aff4de4d0de6d28d05533d4230d298ea3377d # v5.3.0
         env:
           NODE_PATH: ${{ github.workspace }}/node_modules
         with:
