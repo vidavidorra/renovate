@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Renovate
-        uses: renovatebot/github-action@19fcb7282281b0f02488bb772042f53ba654a99e # v34.141.0
+        uses: renovatebot/github-action@c56dbeca772b331ddf18eefad8b93f0f3c69d34a # v34.159.2
         with:
           configurationFile: dist/src/renovate-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
