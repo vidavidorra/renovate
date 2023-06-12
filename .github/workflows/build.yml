@@ -54,7 +54,7 @@ jobs:
           npm run build
           npm run test:create-renovate-config -- ${{ env.CONFIG_FILE_PATH }}
       - name: Test
-        uses: renovatebot/github-action@c56dbeca772b331ddf18eefad8b93f0f3c69d34a # v34.159.2
+        uses: renovatebot/github-action@5aa4bc2e097e751b391105d89ff88c0c80519c1a # v38.1.3
         with:
           configurationFile: ${{ env.CONFIG_FILE_PATH }}
           token: ${{ secrets.RENOVATE_TOKEN }}
