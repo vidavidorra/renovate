@@ -1,11 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "branchPrefix": "${branchName}/",
+  "branchPrefix": "github-renovate/",
   "dependencyDashboardTitle": "Dependency Dashboard self-hosted",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
-  "logLevel": "debug",
   "onboarding": true,
-  "onboardingBranch": "${branchName}/configure",
+  "onboardingBranch": "github-renovate/configure",
   "platform": "github",
-  "repositories": ["vidavidorra/github-renovate"]
+  "repositories": []
 }

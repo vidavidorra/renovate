@@ -56,9 +56,10 @@ jobs:
       - name: Test
         uses: renovatebot/github-action@0868f611868abf92ddbb6f2c01d2b6c2d818ec38 # v38.1.7
         with:
-          configurationFile: .github/github-renovate.test.json
+          configurationFile: .github/github-renovate.json
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
+          LOG_LEVEL: debug
           RENOVATE_DRY_RUN: full
           RENOVATE_REPOSITORIES: '["vidavidorra/github-renovate"]'
   release:
