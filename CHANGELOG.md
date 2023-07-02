@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/vidavidorra/renovate/compare/v1.2.29...v1.3.0) (2023-07-02)
+
+### Features
+
+- align repository setup with vidavidorra organisation ([#288](https://github.com/vidavidorra/renovate/issues/288)) ([29a2f75](https://github.com/vidavidorra/renovate/commit/29a2f7524695997d4f2ee5b7de2e0787debd3b85))
+
 ## [1.2.29](https://github.com/vidavidorra/renovate/compare/v1.2.28...v1.2.29) (2023-06-26)
 
 ### Bug Fixes
