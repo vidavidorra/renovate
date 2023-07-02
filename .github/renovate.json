@@ -3,7 +3,7 @@
   "extends": ["github>vidavidorra/.github"],
   "packageRules": [
     {
-      "description": "Update the Renovate GitHub action weakly with fix type",
+      "description": "Update the Renovate GitHub action weekly with fix type",
       "packageNames": "renovatebot/github-action",
       "extends": [":semanticCommitType(fix)", "schedule:weekly"]
     }
