@@ -1,36 +1,43 @@
-# GitHub Renovate
+# Self-hosted [**Renovate**][renovate] <!-- omit in toc -->
 
-Self-hosted instance of Renovate.
+Self-hosted [**Renovate**][renovate] using the [`renovatebot/github-action`][renovate-action] [**GitHub**][github] Action.
 
-## Table of contents
+---
 
-- [Badges](#badges)
+[![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen.svg?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
+[![License](https://img.shields.io/github/license/vidavidorra/renovate.svg?style=flat-square)](LICENSE.md)
+
 - [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Security policy](#security-policy)
 - [License](#license)
-
-## Badges
-
-| Badge                                                                                                                                                                                                                              | Description          | Service              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------- |
-| <a href="https://github.com/prettier/prettier#readme"><img alt="code style" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>                                                               | Code style           | Prettier             |
-| <a href="https://conventionalcommits.org"><img alt="Conventional Commits: 1.0.0" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square"></a>                                                 | Commit style         | Conventional Commits |
-| <a href="https://github.com/semantic-release/semantic-release"><img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square"></a>                   | Version management   | `semantic-release`   |
-| <a href="https://renovatebot.com"><img alt="Renovate enabled" src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square"></a>                                                                           | Dependencies         | Renovate             |
-| <a href="https://github.com/vidavidorra/github-renovate/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/github-renovate/Lint%20commit%20messages?style=flat-square"></a> | Lint commit messages | GitHub Actions       |
-| <a href="https://github.com/vidavidorra/github-renovate/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/github-renovate/Build?style=flat-square"></a>                    | Build                | GitHub Actions       |
 
 ## Documentation
 
-This repository is running a self-hosted [Renovate](https://renovate.whitesourcesoftware.com/), which is keeping the GitHub Actions workflows up to date in a bunch of repositories in the [vidavidorra](https://github.com/vidavidorra) organisation. For this, it uses the [github-actions-renovate](https://github.com/vidavidorra/github-action-renovate) action. The [workflow](./.github/workflows/renovate.yml) for this is running on a schedule, to run e.g. every fifteen minutes. It is a little bit less responsive, especially when rebasing a PR, then e.g. using the GitHub Renovate App since this is bound to a schedule. Still, this works wonderful!
-See the [workflow](./.github/workflows/renovate.yml) and [configuration](./src/config.js) file for details on how this is set up.
+This repository is running a self-hosted [**Renovate**][renovate] using it's [**GitHub**][github] Action, [`renovatebot/github-action`][renovate-action]. The [`renovate` workflow](.github/workflows/renovate.yml) runs runs on a schedule, making it a little bit less responsive than the [Renovate GitHub App][renovate-app]. The configuration for the self-hosted [**Renovate**][renovate] is configured to prevent conflicts with the [Renovate GitHub App][renovate-app] and can be found in [`.github/renovate-global.json`](.github/renovate-global.json).
+
+## Contributing
+
+Please [create an issue](https://github.com/vidavidorra/renovate/issues/new/choose) if you have a bug report or feature proposal, or [create a discussion](https://github.com/vidavidorra/renovate/discussions) if you have a question. If you like this project, please consider giving it a star ⭐ and/or become a [sponsor](https://github.com/sponsors/jdbruijn) to support my work.
+
+Refer to the [contributing guide](CONTRIBUTING.md) detailed information about other contributions, like pull requests.
+
+[![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow?style=flat-square)](https://conventionalcommits.org)
+[![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray&style=flat-square)](https://github.com/xojs/xo)
+[![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
+
+## Security policy
+
+Please refer to the [Security Policy on GitHub](https://github.com/vidavidorra/renovate/security/) for the security policy.
 
 ## License
 
 This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/gpl.html).
 
-Copyright © 2019-2020 Jeroen de Bruijn
+Copyright © 2019-2023 Jeroen de Bruijn
 
-<details><summary>License details.</summary>
+<details><summary>License notice</summary>
 <p>
 
 This program is free software: you can redistribute it and/or modify
@@ -49,3 +56,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 The full text of the license is available in the [LICENSE](LICENSE.md) file in this repository and [online](https://www.gnu.org/licenses/gpl.html).
 
 </details>
+
+<!-- References -->
+
+[github]: https://github.com/
+[renovate]: https://www.mend.io/renovate/
+[renovate-action]: https://github.com/renovatebot/github-action
+[renovate-app]: https://github.com/marketplace/renovate
