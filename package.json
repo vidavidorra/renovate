@@ -160,7 +160,7 @@
     "lint-staged": "13.2.3",
     "prettier": "3.0.1",
     "semantic-release": "21.0.7",
-    "xo": "0.55.1"
+    "xo": "0.56.0"
   },
   "engines": {
     "node": ">=18"
