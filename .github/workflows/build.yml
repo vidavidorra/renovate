@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - name: Setup node
-        uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3.8.2
+        uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4.0.0
       - name: Test
         uses: renovatebot/github-action@5c6c06aa0e3d7a6a9b6cba05c078c51631b5f11a # v39.1.1
         with:
