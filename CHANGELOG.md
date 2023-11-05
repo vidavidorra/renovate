@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/vidavidorra/renovate/compare/v1.3.4...v1.3.5) (2023-11-05)
+
+### Continuous Integration
+
+- fail `format` scripts on a warning ([8dd9dea](https://github.com/vidavidorra/renovate/commit/8dd9dea4ead7bb7746ddc0613d817c43b0cea14a))
+- rename `build` workflow to `ci-cd` ([d6eda8a](https://github.com/vidavidorra/renovate/commit/d6eda8a25cf6c950957e679ae4dbe3ef1f054b28))
+
 ## [1.3.4](https://github.com/vidavidorra/renovate/compare/v1.3.3...v1.3.4) (2023-10-30)
 
 ### Bug Fixes
