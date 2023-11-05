@@ -1,11 +1,12 @@
-name: Build
+name: CI/CD
 on:
   push:
     branches:
       - main
+      - beta
       - 'renovate/**'
       - 'github-renovate/**'
-  pull_request:
+  pull_request: null
 jobs:
   lint-commit-messages:
     uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@f9dd5c7e1a71d02a92f8aac3261b62eae0df950f # v4.1.0
