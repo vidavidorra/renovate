@@ -35,7 +35,7 @@ Please refer to the [Security Policy on GitHub](https://github.com/vidavidorra/r
 
 This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/gpl.html).
 
-Copyright © 2019-2023 Jeroen de Bruijn
+Copyright © 2019-2024 Jeroen de Bruijn
 
 <details><summary>License notice</summary>
 <p>
