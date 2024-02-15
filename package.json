@@ -20,7 +20,7 @@
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
     "lint": "npm run format:check && xo",
     "lint:fix": "npm run format && xo --fix",
-    "prepare": "husky install .github/husky",
+    "prepare": "husky .github/husky",
     "test": ""
   },
   "commitlint": {
@@ -155,7 +155,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@vidavidorra/commitlint-config": "6.0.5",
-    "husky": "8.0.3",
+    "husky": "9.0.10",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
