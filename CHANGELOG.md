@@ -1,3 +1,9 @@
+## [1.3.18](https://github.com/vidavidorra/renovate/compare/v1.3.17...v1.3.18) (2024-03-26)
+
+### Continuous Integration
+
+- temporary disable `lint-commit-messages` ([#305](https://github.com/vidavidorra/renovate/issues/305)) ([e60c87b](https://github.com/vidavidorra/renovate/commit/e60c87b6f0aea5f8d658b41dbf0c191b8e3f2cee))
+
 ## [1.3.17](https://github.com/vidavidorra/renovate/compare/v1.3.16...v1.3.17) (2024-03-18)
 
 ### Bug Fixes
