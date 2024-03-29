@@ -1,3 +1,9 @@
+## [1.3.19](https://github.com/vidavidorra/renovate/compare/v1.3.18...v1.3.19) (2024-03-29)
+
+### Reverts
+
+- "ci: temporary disable `lint-commit-messages` ([#305](https://github.com/vidavidorra/renovate/issues/305))" ([eed4173](https://github.com/vidavidorra/renovate/commit/eed417319b3a624143360ad6a439b60e273c25f8))
+
 ## [1.3.18](https://github.com/vidavidorra/renovate/compare/v1.3.17...v1.3.18) (2024-03-26)
 
 ### Continuous Integration
