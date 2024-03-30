@@ -9,11 +9,11 @@ on:
   pull_request: null
 jobs:
   lint-commit-messages:
-    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@1c91d6f274ead11e6e2b6f7e1226e0f197655cc0 # v4.2.3
+    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@a733c9c5f0741127e1f07c53e3d616271dca0157 # v4.2.4
   lint:
-    uses: vidavidorra/.github/.github/workflows/node-lint.yml@1c91d6f274ead11e6e2b6f7e1226e0f197655cc0 # v4.2.3
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml@a733c9c5f0741127e1f07c53e3d616271dca0157 # v4.2.4
   build:
-    uses: vidavidorra/.github/.github/workflows/node-build.yml@1c91d6f274ead11e6e2b6f7e1226e0f197655cc0 # v4.2.3
+    uses: vidavidorra/.github/.github/workflows/node-build.yml@a733c9c5f0741127e1f07c53e3d616271dca0157 # v4.2.4
   test:
     runs-on: ubuntu-latest
     steps:
@@ -36,6 +36,6 @@ jobs:
       - lint
       - build
       - test
-    uses: vidavidorra/.github/.github/workflows/release.yml@1c91d6f274ead11e6e2b6f7e1226e0f197655cc0 # v4.2.3
+    uses: vidavidorra/.github/.github/workflows/release.yml@a733c9c5f0741127e1f07c53e3d616271dca0157 # v4.2.4
     secrets:
       privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
