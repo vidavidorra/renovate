@@ -1,3 +1,9 @@
+## [1.3.28](https://github.com/vidavidorra/renovate/compare/v1.3.27...v1.3.28) (2024-08-19)
+
+### Bug Fixes
+
+- **deps:** update renovatebot/github-action action to v40.2.6 ([170823e](https://github.com/vidavidorra/renovate/commit/170823e0c7008505be002036c8e810af14a3ea50))
+
 ## [1.3.27](https://github.com/vidavidorra/renovate/compare/v1.3.26...v1.3.27) (2024-08-12)
 
 ### Bug Fixes
