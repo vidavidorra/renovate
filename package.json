@@ -158,7 +158,7 @@
     "husky": "9.1.4",
     "lint-staged": "15.2.9",
     "prettier": "3.3.3",
-    "semantic-release": "24.0.0",
+    "semantic-release": "24.1.0",
     "xo": "0.59.3"
   },
   "engines": {
