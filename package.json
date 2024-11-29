@@ -157,7 +157,7 @@
     "@vidavidorra/commitlint-config": "7.0.10",
     "husky": "9.1.7",
     "lint-staged": "15.2.10",
-    "prettier": "3.3.3",
+    "prettier": "3.4.0",
     "semantic-release": "24.2.0",
     "xo": "0.59.3"
   },
