@@ -1,6 +1,6 @@
 {
   "name": "renovate",
-  "version": "1.3.36",
+  "version": "1.3.37",
   "private": true,
   "description": "Self-hosted Renovate using the Renobate GitHub Action",
   "homepage": "https://github.com/vidavidorra/renovate#readme",
