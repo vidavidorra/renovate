@@ -154,7 +154,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "7.0.3",
     "@semantic-release/git": "10.0.1",
-    "@vidavidorra/commitlint-config": "7.0.12",
+    "@vidavidorra/commitlint-config": "7.0.13",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
     "prettier": "3.5.3",
