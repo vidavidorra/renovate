@@ -18,8 +18,8 @@
     "build": "",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
-    "lint": "npm run format:check && xo",
-    "lint:fix": "npm run format && xo --fix",
+    "lint": "npm run format:check && xo .github/**/*.js",
+    "lint:fix": "npm run format && xo .github/**/*.js --fix",
     "prepare": "husky .github/husky",
     "test": ""
   },
@@ -30,9 +30,6 @@
   },
   "xo": {
     "prettier": true,
-    "rules": {
-      "object-curly-spacing": "off"
-    },
     "space": true
   },
   "prettier": {
