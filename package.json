@@ -2,7 +2,7 @@
   "name": "renovate",
   "version": "1.3.50",
   "private": true,
-  "description": "Self-hosted Renovate using the Renobate GitHub Action",
+  "description": "Self-hosted Renovate using the Renovate GitHub Action",
   "homepage": "https://github.com/vidavidorra/renovate#readme",
   "bugs": {
     "url": "https://github.com/vidavidorra/renovate/issues"
