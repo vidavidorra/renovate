@@ -22,7 +22,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
       - name: Test
-        uses: renovatebot/github-action@8ac70de2fe55752c573155866e30735411e3b61c # v41.0.22
+        uses: renovatebot/github-action@822441559e94f98b67b82d97ab89fe3003b0a247 # v44.2.0
         with:
           configurationFile: .github/renovate-global.json
           token: ${{ secrets.RENOVATE_TOKEN }}
