@@ -18,8 +18,8 @@
     "build": "",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
-    "lint": "npm run format:check && xo .github/**/*.js",
-    "lint:fix": "npm run format && xo .github/**/*.js --fix",
+    "lint": "npm run format:check && eslint .github/**/*.js",
+    "lint:fix": "npm run format && eslint .github/**/*.js --fix",
     "prepare": "husky .github/husky",
     "test": ""
   },
@@ -28,13 +28,7 @@
       "@vidavidorra"
     ]
   },
-  "xo": {
-    "prettier": true,
-    "space": true
-  },
-  "prettier": {
-    "singleQuote": true
-  },
+  "prettier": "@vidavidorra/prettier-config",
   "release": {
     "extends": "@vidavidorra/semantic-release-config"
   },
@@ -46,12 +40,14 @@
   "devDependencies": {
     "@commitlint/cli": "20.2.0",
     "@vidavidorra/commitlint-config": "7.1.8",
+    "@vidavidorra/eslint-config": "1.0.3",
+    "@vidavidorra/prettier-config": "1.0.6",
     "@vidavidorra/semantic-release-config": "1.0.4",
+    "eslint": "9.39.2",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.7.4",
-    "semantic-release": "25.0.2",
-    "xo": "1.2.3"
+    "semantic-release": "25.0.2"
   },
   "engines": {
     "node": ">=18"
