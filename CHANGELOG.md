@@ -1,3 +1,10 @@
+## [1.3.51](https://github.com/vidavidorra/renovate/compare/v1.3.50...v1.3.51) (2025-12-26)
+
+### Continuous Integration
+
+- replace semantic-release config with `@vidavidorra/semantic-release-config` ([a7a1d41](https://github.com/vidavidorra/renovate/commit/a7a1d415ba98f7534bed2fd833e987ccd655e46f))
+- use ESLint for linting, instead of XO (which uses ESLint internally) ([19eaa82](https://github.com/vidavidorra/renovate/commit/19eaa82eb49b924bb4b6c172a778958096224298))
+
 ## [1.3.50](https://github.com/vidavidorra/renovate/compare/v1.3.49...v1.3.50) (2025-05-05)
 
 ### Bug Fixes
