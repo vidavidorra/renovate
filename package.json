@@ -36,122 +36,17 @@
     "singleQuote": true
   },
   "release": {
-    "branches": [
-      "main",
-      {
-        "name": "beta",
-        "prerelease": true
-      }
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "releaseRules": [
-            {
-              "type": "perf",
-              "release": "patch"
-            },
-            {
-              "type": "revert",
-              "release": "patch"
-            },
-            {
-              "type": "docs",
-              "release": "patch"
-            },
-            {
-              "type": "chore",
-              "release": false
-            },
-            {
-              "type": "refactor",
-              "release": "patch"
-            },
-            {
-              "type": "test",
-              "release": "patch"
-            },
-            {
-              "type": "build",
-              "release": "patch"
-            },
-            {
-              "type": "ci",
-              "release": "patch"
-            }
-          ]
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      [
-        "@semantic-release/exec",
-        {
-          "prepareCmd": "prettier --write CHANGELOG.md"
-        }
-      ],
-      "@semantic-release/npm",
-      "@semantic-release/git",
-      "@semantic-release/github"
-    ],
-    "preset": "conventionalcommits",
-    "presetConfig": {
-      "types": [
-        {
-          "type": "feat",
-          "section": "Features"
-        },
-        {
-          "type": "fix",
-          "section": "Bug Fixes"
-        },
-        {
-          "type": "perf",
-          "section": "Performance Improvements"
-        },
-        {
-          "type": "revert",
-          "section": "Reverts"
-        },
-        {
-          "type": "docs",
-          "section": "Documentation"
-        },
-        {
-          "type": "style",
-          "section": "Styles"
-        },
-        {
-          "type": "chore",
-          "section": "Miscellaneous Chores",
-          "hidden": true
-        },
-        {
-          "type": "refactor",
-          "section": "Code Refactoring"
-        },
-        {
-          "type": "test",
-          "section": "Tests"
-        },
-        {
-          "type": "build",
-          "section": "Build System"
-        },
-        {
-          "type": "ci",
-          "section": "Continuous Integration"
-        }
-      ]
+    "extends": "@vidavidorra/semantic-release-config"
+  },
+  "overrides": {
+    "@commitlint/config-conventional": {
+      "conventional-changelog-conventionalcommits": ">=9.0.0"
     }
   },
   "devDependencies": {
     "@commitlint/cli": "20.2.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "7.1.0",
-    "@semantic-release/git": "10.0.1",
     "@vidavidorra/commitlint-config": "7.1.8",
+    "@vidavidorra/semantic-release-config": "1.0.4",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.7.4",
@@ -160,8 +55,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "overrides": {
-    "conventional-changelog-conventionalcommits": ">= 8.0.0"
   }
 }
