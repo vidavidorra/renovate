@@ -32,11 +32,6 @@
   "release": {
     "extends": "@vidavidorra/semantic-release-config"
   },
-  "overrides": {
-    "@commitlint/config-conventional": {
-      "conventional-changelog-conventionalcommits": ">=9.0.0"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "20.4.2",
     "@vidavidorra/commitlint-config": "7.1.14",
