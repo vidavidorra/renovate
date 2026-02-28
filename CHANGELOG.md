@@ -1,3 +1,9 @@
+## [1.3.52](https://github.com/vidavidorra/renovate/compare/v1.3.51...v1.3.52) (2026-02-28)
+
+### Bug Fixes
+
+- **deps:** remove conventional-changelog-conventionalcommits override ([d4ec143](https://github.com/vidavidorra/renovate/commit/d4ec143af23c98a749c9d6b99f63d77da8d3400d))
+
 ## [1.3.51](https://github.com/vidavidorra/renovate/compare/v1.3.50...v1.3.51) (2025-12-26)
 
 ### Continuous Integration
