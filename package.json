@@ -33,7 +33,7 @@
     "extends": "@vidavidorra/semantic-release-config"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.5.0",
+    "@commitlint/cli": "20.5.2",
     "@vidavidorra/commitlint-config": "7.1.17",
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
