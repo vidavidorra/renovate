@@ -38,7 +38,7 @@
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
     "@vidavidorra/semantic-release-config": "2.0.2",
-    "eslint": "9.39.4",
+    "eslint": "10.5.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
     "prettier": "3.8.4",
