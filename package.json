@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "21.1.0",
-    "@vidavidorra/commitlint-config": "8.0.1",
+    "@vidavidorra/commitlint-config": "8.0.2",
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
     "@vidavidorra/semantic-release-config": "2.0.2",
