@@ -1,3 +1,28 @@
+## [1.3.70](https://github.com/vidavidorra/renovate/compare/v1.3.69...v1.3.70) (2026-11-24)
+
+### Miscellaneous Chores
+
+- **deps-dev:** bump source-map-js from 1.2.1 to 1.2.2 ([#372](https://github.com/vidavidorra/renovate/issues/372)) ([f457440](https://github.com/vidavidorra/renovate/commit/f4574406f2ef6c4350077e473fc811f9ffb2eacd))
+- **deps:** lock file maintenance ([cedcc4d](https://github.com/vidavidorra/renovate/commit/cedcc4ddec8fc510f831821ed54fbe567442acd6))
+- **deps:** lock-file maintenance ([ad8bcca](https://github.com/vidavidorra/renovate/commit/ad8bcca5cc738c89839a6d37cd136ced424b39cc))
+- **deps:** update dependency eslint to v10.14.0 ([04f4024](https://github.com/vidavidorra/renovate/commit/04f4024b22b86d022d0a9452d4c7def14869f58b))
+- **deps:** update dependency eslint to v10.15.0 ([53fac8b](https://github.com/vidavidorra/renovate/commit/53fac8bdad20a334b173c8e65509378da6998dc0))
+- **deps:** update dependency lint-staged to v17.6.1 ([b89abe3](https://github.com/vidavidorra/renovate/commit/b89abe3bab32bea80fdd9ea9f100245c8a179a91))
+- **deps:** update dependency prettier to v3.10.0 ([7329aab](https://github.com/vidavidorra/renovate/commit/7329aabed9b1f9d4131d44012f880670e2d13f42))
+- **deps:** update dependency prettier to v3.10.1 ([b3bf823](https://github.com/vidavidorra/renovate/commit/b3bf823ed8e7bf1b73f687a1652682c8d33eebe6))
+- **deps:** update dependency semantic-release to v26 ([#373](https://github.com/vidavidorra/renovate/issues/373)) ([75a494b](https://github.com/vidavidorra/renovate/commit/75a494b4f8261fa4d7825b5ae11552aad05b9707))
+- **deps:** update vidavidorra/.github action to v8.1.28 ([97b98e6](https://github.com/vidavidorra/renovate/commit/97b98e69f3f130111db9193c866f4b630dd05532))
+- **deps:** update vidavidorra/.github action to v8.1.29 ([c70caa0](https://github.com/vidavidorra/renovate/commit/c70caa0affc0fc13767c91fe9fb840a7e93e3587))
+- **deps:** update vidavidorra/.github action to v8.1.30 ([5d8ad7a](https://github.com/vidavidorra/renovate/commit/5d8ad7adcefcd828f0c3f1edb44ca8ce7b479311))
+- **deps:** update vidavidorra/.github action to v8.1.31 ([317d6ec](https://github.com/vidavidorra/renovate/commit/317d6ec5bfae49d8d5783cb98cb3fdfb1848780b))
+- **deps:** update vidavidorra/.github action to v9 ([#374](https://github.com/vidavidorra/renovate/issues/374)) ([b86fbaf](https://github.com/vidavidorra/renovate/commit/b86fbaf1319fa635d100dc30a201fad7d028de5c))
+
+### Bug Fixes
+
+- **deps:** update renovatebot/github-action action to v46.3.12 ([28d6d0c](https://github.com/vidavidorra/renovate/commit/28d6d0ccbe50193348bcb935a717c9945979402a))
+- **deps:** update renovatebot/github-action action to v46.3.13 ([1e2c907](https://github.com/vidavidorra/renovate/commit/1e2c907755e9fe4fd2527ac78d69016f297c9ca9))
+- **deps:** update renovatebot/github-action action to v46.3.14 ([ac8ccd2](https://github.com/vidavidorra/renovate/commit/ac8ccd2bb5cd2dffafcc0db7a14d0a46858ae862))
+
 ## [1.3.69](https://github.com/vidavidorra/renovate/compare/v1.3.68...v1.3.69) (2026-10-30)
 
 ### Bug Fixes
